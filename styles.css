@@ -265,12 +265,22 @@ line-height: 1.5em;
 }
 
 #send-container{
-    position: absolute;
+    position: relative;
     bottom: 10px;
-    border: 3px solid #8AC007;
+    margin-left: 33%;
+}
+
+#message-input{
+    width: 30%;
 }
 
 #message-container{
-    margin-left: 35%;
-    float: left;
+    height: 80%;
+    width: 33%;
+    overflow: hidden;
+    margin-left: 33%;
+}
+
+.away-message{
+    margin-left: 30%;
 }

@@ -45,7 +45,7 @@ function homeMessage(message) {
 
 function awayMessage(message) {
     const messageElement = document.createElement('div')
-    messageElement.setAttribute('class', 'talk-bubble-away tri-right border round btm-right-in')
+    messageElement.setAttribute('class', 'talk-bubble-away tri-right border round btm-right-in away-message')
     const newId = uuidv4()
     messageElement.setAttribute('id', newId)
     messageContainer.append(messageElement)
