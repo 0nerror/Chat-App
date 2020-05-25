@@ -33,6 +33,8 @@ function homeMessage(message) {
     const newId = uuidv4()
     messageElement.setAttribute('id', newId)
     messageContainer.append(messageElement)
+    const lineBreak = document.createElement("br")
+    messageContainer.append(lineBreak)
 
     const textContainer = document.getElementById(newId)
     const textElement = document.createElement('div')
@@ -47,6 +49,8 @@ function awayMessage(message) {
     const newId = uuidv4()
     messageElement.setAttribute('id', newId)
     messageContainer.append(messageElement)
+    const lineBreak = document.createElement("br")
+    messageContainer.append(lineBreak)
 
     const textContainer = document.getElementById(newId)
     const textElement = document.createElement('div')
